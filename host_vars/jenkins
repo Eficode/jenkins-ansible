@@ -3,7 +3,7 @@ plugins:
   - 'git'
   - 'copyartifact'
   - 'build-pipeline-plugin'  
-port: 8081
+port: 8080
 prefix: '/build'
 email:
   smtp_host: 'mail.example.com'
