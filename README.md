@@ -1,3 +1,9 @@
+# Eficode Minion Tutorial
+
+This repository is intended to be used with [this blog post](https://eficode.com/blog/some/path). It is only a slight variation of the original [balamaci/jenkins-ansible](https://github.com/balamaci/jenkins-ansible) repository. If you are looking for the most recent developments in this repository, we suggest you use that version.
+
+Original README file follows.
+
 ### Vagrant
 Vagrant project is useful for having a generic way to build/start VMs from the command line, because while there can be more than one **"providers"** of VMs there are certainly common characteristics when describing a VM like memory size, network setup, shared folders, forwarded ports, etc. What do we mean by a **provider** for a Vagrant VM? Well you are probably familiar with **Virtualbox**(which happens to be the default provider in Vagrant) or **VmWare**. Those are just two of the possible providers for Vagrant VMs and you can pass into the **Vagrant** file custom configuration properties for each provider. 
 Things has be evolving though and a Vagrant "template" for a VM can even be used to build and deploy instances on cloud providers like Digital Ocean.
